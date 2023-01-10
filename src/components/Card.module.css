@@ -1,9 +1,24 @@
 .card {
-  background: rgba(255, 255, 255, 0.85);
-  margin: 0.5em;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.85);  
   border: 3px solid #09f;
   border-radius: 15px;
-  width: 22%;
+  width: 20%;
+}
+.title{
+display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-left: 0.5em;
+}
+
+.tags{
+  position: relative;
+  top: -3em;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .image {
@@ -25,10 +40,13 @@
  background: rgba(255, 17, 0, 0.85);
 }
 
-.h2 {
+.h2 {width: 80%;
   color: #09f;
 }
-
-.p{
+.span{
+  padding: 0.3em;
+  background-color: white;
+  border: 1px solid #09f;
+  border-radius: 5px;
   color: #09f;
 }

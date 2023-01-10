@@ -1,7 +1,12 @@
 .nav{
+  flex-wrap: wrap;
   display: flex;
   justify-content: flex-end;
   padding: 8px;
+  background-color: rgba(255, 255, 255, 0.35);
+  border: 3px solid #09f;
+  border-radius: 15px;
+  
 }
 
 .button {
@@ -15,10 +20,3 @@
   .button:hover{
     background: #09f;
   }
-
-  .txt{
-  }
-
-.p{
-  color: #09f;
-}
