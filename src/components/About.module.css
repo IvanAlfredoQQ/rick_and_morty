@@ -1,0 +1,8 @@
+.span{
+    font-weight: bolder;
+    padding: 0.3em;
+    background-color: white;
+    border: 1px solid #09f;
+    border-radius: 5px;
+    color: #09f;
+  }

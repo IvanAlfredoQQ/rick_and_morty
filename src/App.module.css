@@ -1,10 +1,9 @@
 .App {
   text-align: center;
+  background-image: url("C:/Users/Ivan/Desktop/rick_and_morty/src/img/space.png");
+  min-height: 100vh;
 }
 
 .container {
    overflow: hidden;
-  background-image: url("C:/Users/Ivan/Desktop/rick_and_morty/src/img/space.png");
-  width: auto;
-  height: 1000px;
 }

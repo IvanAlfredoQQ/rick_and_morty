@@ -1,5 +1,5 @@
 import Card from "./Card";
-import styles from "./Cards.module.css"
+import styles from "./Cards.module.css";
 
 export default function Cards(props) {
   const { characters } = props;
@@ -8,11 +8,13 @@ export default function Cards(props) {
       {characters.map((e) => {
         return (
           <Card
+            key={e.id}
+            id={e.id}
             name={e.name}
             species={e.species}
             gender={e.gender}
             image={e.image}
-            onClose={()=>props.onClose(e.id)}
+            onClose={() => props.onClose(e.id)}
           />
         );
       })}
